@@ -7,5 +7,5 @@ use-site-title: true
 <div id="pdf" style="height: 800px;"></div>
 <script src="/js/pdfobject.min.js"></script>
 <script>
-PDFObject.embed("https://theses.hal.science/tel-04732963/document", "#pdf");
+PDFObject.embed("https://hal.science/hal-04073770/file/DDSP_Piano_JAES_final.pdf", "#pdf");
 </script>
