@@ -13,7 +13,7 @@ The manuscript can also be found [here](https://theses.hal.science/tel-04732963/
 
 Many thanks to the jury composed of:
 - Mark Sandler (QMUL)
-- Mathieu Lagrange (CNRS, LS2N)
+- Mathieu Lagrange (CNRS, Centrale Nantes)
 - Gaël Richard (Télécom Paris)
 - Jesse Engel (Google DeepMind)
 - Juliette Chabassier (Modartt)
