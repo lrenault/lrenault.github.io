@@ -165,6 +165,7 @@ site-css:
 # If you have common JavaScript files that should be included in every page, list them here
 site-js:
   - "/assets/js/pdfobject.min.js"
+  - "/assets/js/copybib.js"
 
 #################################
 # --- Web Analytics Section --- #
