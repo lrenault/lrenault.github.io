@@ -17,13 +17,13 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <!-- <p class="paper-status">International Conference on Computer Vision (ICCV 2023)</p> -->
         <div class="paper-data">
             <!-- <a class="paper-data-item" onclick='know_more(this)'>&#128064; What ?</a> -->
-            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2023/DAFx23_paper_75.pdf" target="_blank" rel="noopener noreferrer"></i><i class="far fa-file-pdf"></i> Paper</a>
+            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2023/DAFx23_paper_75.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
             <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx23/performance/rendering/2023/05/10/sup_mat" target="_blank" rel="noopener noreferrer">&#127760; Webpage</a>
             <!--<a class="paper-data-item" href="https://europe.naverlabs.com/wp-content/uploads/2023/09/ICCV23_poster_10123_compressed.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-panorama"></i> Poster</a>-->
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; BibTex</a>
         </div>
-        <p id="posefix_iccv23_descr" class="paper-small-descr">We introduce.</p>
-        <div id="posefix_iccv23_bibtex" style="display: none;">
+        <p id="unpair-perf-render_dafx23_descr" class="paper-small-descr">We introduce...</p>
+        <div id="unpair-perf-render_dafx23_bibtex" style="display: none;">
             @inproceedings{renault2023unpaired_perf_render,
                 title={Expressive Piano Performance Rendering from Unpaired Data},
                 author={Renault, Lenny and Mignot, Rémi and Roebel, Axel},
@@ -46,13 +46,13 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <!-- <p class="paper-status">International Conference on Computer Vision (ICCV 2023)</p> -->
         <div class="paper-data">
             <!-- <a class="paper-data-item" onclick='know_more(this)'>&#128064; What ?</a> -->
-            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2022/papers/DAFx20in22_paper_48.pdf" target="_blank" rel="noopener noreferrer"></i><i class="far fa-file-pdf"></i>Paper</a>
+            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2022/papers/DAFx20in22_paper_48.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i>Paper</a>
             <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" target="_blank" rel="noopener noreferrer">&#127760; Webpage</a>
             <a class="paper-data-item" href="https://github.com/lrenault/ddsp-piano" target="_blank" rel="noopener noreferrer"><i class="fa fa-code"></i> Code</a>
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; BibTex</a>
         </div>
-        <p id="posefix_iccv23_descr" class="paper-small-descr">We introduce.</p>
-        <div id="posefix_iccv23_bibtex" style="display: none;">
+        <p id="diffpiano_dafx22_descr" class="paper-small-descr">We introduce...</p>
+        <div id="diffpiano_dafx22_bibtex" style="display: none;">
             @inproceedings{renault2022differentiable_piano,
                 title={Differentiable Piano Model for MIDI-to-Audio Perormance Synthesis},
                 author={Renault, Lenny and Mignot, Rémi and Roebel, Axel},
