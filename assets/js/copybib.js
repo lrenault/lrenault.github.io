@@ -12,8 +12,8 @@ function copy_bibtext(e) {
     navigator.clipboard.writeText(copyText);
 
     // Alert that the text was copied (temporary show the snackbar)
-    var snackbar = document.getElementById("snackbar");
-    snackbar.textContent = "BibTex copied!"
-    snackbar.className = "show";
-    setTimeout(function(){ snackbar.className = snackbar.className.replace("show", ""); }, 3000);
+    // var snackbar = document.getElementById("snackbar");
+    // snackbar.textContent = "BibTex copied!"
+    // snackbar.className = "show";
+    // setTimeout(function(){ snackbar.className = snackbar.className.replace("show", ""); }, 3000);
 }
