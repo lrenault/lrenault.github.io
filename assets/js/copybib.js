@@ -17,3 +17,19 @@ function copy_bibtext(e) {
     // snackbar.className = "show";
     // setTimeout(function(){ snackbar.className = snackbar.className.replace("show", ""); }, 3000);
 }
+
+function toggle_abstract(e) {
+    // Get the paper name from the clicked button
+    var paper_name = e.parentNode.parentNode.id;
+    var abstract = document.getElementById(paper_name + "_descr");
+    var button = e;
+    
+    // Toggle the show class
+    if (abstract.classList.contains("show")) {
+        abstract.classList.remove("show");
+        button.textContent = "Click to read abstract";
+    } else {
+        abstract.classList.add("show");
+        button.textContent = "Click to hide abstract";
+    }
+}

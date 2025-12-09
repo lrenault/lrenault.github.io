@@ -74,3 +74,32 @@ layout: null
     padding: 5px;
     margin-right: 2px;
 }
+/* Make BibTeX links blue and underlined */
+.paper-data-item[onclick*="copy_bibtext"] {
+    color: rgb(34, 134, 234);
+    cursor: pointer;
+}
+.paper-data-item[onclick*="copy_bibtext"]:hover {
+    text-decoration: underline;
+    color: rgb(0, 85, 170);
+}
+/* Abstract toggle button styling */
+.paper-abstract-toggle {
+    display: inline-block;
+    color: rgb(34, 134, 234);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.paper-abstract-toggle:hover {
+    color: rgb(0, 85, 170);
+}
+.paper-small-descr {
+    margin-top: 10px;
+    padding-top: 10px;
+}
