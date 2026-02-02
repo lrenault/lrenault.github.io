@@ -1,0 +1,63 @@
+/* --- Updates Container --- */
+
+.updates-container {
+    background-color: var(--background-color); /* background-secondary */
+    border-radius: var(--radius-lg);
+    padding: var(--space-6);
+    margin: var(--space-4) 0;
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .updates-list {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .updates-list li {
+    padding: var(--space-3) 0;
+    border-bottom: 1px solid var(--border-color);
+    font-size: var(--font-size-sm);
+    line-height: var(--leading-relaxed);
+    transition: background-color var(--transition-fast);
+  }
+  
+  .updates-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .updates-list li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: var(--radius-md);
+    padding-left: var(--space-2);
+    padding-right: var(--space-2);
+    margin: 0 calc(-1 * var(--space-2));
+  }
+  
+  .updates-list li i {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  /* Custom scrollbar for updates */
+  .updates-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .updates-list::-webkit-scrollbar-track {
+    background: var(--background-secondary);
+    border-radius: var(--radius-sm);
+  }
+  
+  .updates-list::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: var(--radius-sm);
+  }
+  
+  .updates-list::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+  }

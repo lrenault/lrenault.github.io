@@ -21,7 +21,7 @@ author: Lenny Renault
 
 navbar-links:
   Home: "https://lrenault.github.io"
-  Publications: "publications"
+  Research: "research"
   Resume: "resume"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -160,6 +160,7 @@ mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
+  - "/assets/css/updates-scroll.css"
   - "/assets/css/paper-style.css"
 
 # If you have common JavaScript files that should be included in every page, list them here

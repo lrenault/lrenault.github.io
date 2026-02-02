@@ -1,46 +1,87 @@
 ---
 layout: page
-title: Publications
+title: Research
 ---
+
+# Publications
 All my publications can also be viewed on my [Google Scholar profile](https://scholar.google.com/citations?user=4987Pm4AAAAJ).
 
-## Theses
-
-<!-- PhD Thesis -->
-<div id="phd_SU2024" class="paper">
-    <div class="paper-info">
-        <span class="paper-status-chip">PhD Thesis - Sorbonne Université</span>
-        <p class="paper-title">Neural Audio Synthesis of Realistic Piano Performances</p>
-        <p class="paper-authors"><strong>Lenny Renault</strong></p>
-        <p class="paper-status"><em>Sorbonne Université, 2024</em></p>
-        <div class="paper-data">
-            <a class="paper-data-item" href="https://theses.hal.science/tel-04732963/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> PDF</a>
-            <a class="paper-data-item" href="http://thesis-support-renault-b460f792019c9673b9a3b8b52c4d32d2ab7ae4b1.gitlab-pages.ircam.fr/" target="_blank" rel="noopener noreferrer">&#127760; Supplementary Materials</a>
-            <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
-        </div>
-        <button class="paper-abstract-toggle" onclick='toggle_abstract(this)'>Click to read abstract</button>
-        <p id="phd_SU2024_descr" class="paper-small-descr">Musician and instrument make up a central duo in the musical experience. Inseparable, they are the key actors of the musical performance, transforming a composition into an emotional auditory experience. To this end, the instrument is a sound device, that the musician controls to transcribe and share their understanding of a musical work. Access to the sound of such instruments, often the result of advanced craftsmanship, and to the mastery of playing them, can require extensive resources that limit the creative exploration of composers. This thesis explores the use of deep neural networks to reproduce the subtleties introduced by the musician's playing and the sound of the instrument, making the music realistic and alive. Focusing on piano music, the conducted work has led to a sound synthesis model for the piano, as well as an expressive performance rendering model. DDSP-Piano, the piano synthesis model, is built upon the hybrid approach of Differentiable Digital Signal Processing (DDSP), which enables the inclusion of traditional signal processing tools into a deep learning model. The model takes symbolic performances as input and explicitly includes instrument-specific knowledge, such as inharmonicity, tuning, and polyphony. This modular, lightweight, and interpretable approach synthesizes sounds of realistic quality while separating the various components that make up the piano sound. As for the performance rendering model, the proposed approach enables the transformation of MIDI compositions into symbolic expressive interpretations. In particular, thanks to an unsupervised adversarial training, it stands out from previous works by not relying on aligned score-performance training pairs to reproduce expressive qualities. The combination of the sound synthesis and performance rendering models would enable the synthesis of expressive audio interpretations of scores, while enabling modification of the generated interpretations in the symbolic domain.</p>
-        <div id="phd_SU2024_bibtex" style="display: none;">
-            @phdthesis{renault:tel-04732963,
-                title = {{Neural audio synthesis of realistic piano performances}},
-                author = {Renault, Lenny},
-                url = {https://theses.hal.science/tel-04732963},
-                number = {2024SORUS196},
-                school = {{Sorbonne Universit{\'e}}},
-                year = {2024},
-                month = {July},
-                TYPE = {Theses},
-                PDF = {https://theses.hal.science/tel-04732963v1/file/139429_RENAULT_2024_archivage.pdf},
-                HAL_ID = {tel-04732963},
-                HAL_VERSION = {v1},
-            }
-        </div>
+  <div class="publications-list">
+    <div class="publication-item">
+      <h3 class="paper-title">Neural Audio Synthesis of Realistic Piano Performances</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lenny Renault</span>
+      </div>
+      <div class="venue">PhD Thesis, Sorbonne Université, 2024</div>
+      <div class="paper-links">
+        <a href="https://theses.hal.science/tel-04732963/" class="paper-link thesis">Paper</a>
+        <a href="http://thesis-support-renault-b460f792019c9673b9a3b8b52c4d32d2ab7ae4b1.gitlab-pages.ircam.fr/" class="paper-link website">Website</a>
+        <a href="https://www.youtube.com/live/p-Ee3pphlZ4?si=jLPMAGtr2m5SCdHA" class="paper-link video">Video</a>
+      </div>
     </div>
-</div>
+    <div class="publication-item">
+      <h3 class="paper-title">Expressive Piano Performance Rendering from Unpaired Data</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lenny Renault</span>
+        <span class="author-name">Rémi Mignot</span>
+        <span class="author-name">Axel Roebel</span>
+      </div>
+      <div class="venue">DAFx 2023 (LBD)</div>
+      <div class="paper-links">
+        <a href="https://www.dafx.de/paper-archive/2023/DAFx23_paper_75.pdf" class="paper-link arxiv">Paper</a>
+        <a href="http://renault.gitlab-pages.ircam.fr/dafx23/" class="paper-link website">Website</a>
+      </div>
+    </div>
+    <div class="publication-item">
+      <h3 class="paper-title">DDSP-Piano: a Neural Sound Synthesizer informed by Instrument Knowledge</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lenny Renault</span>
+        <span class="author-name">Rémi Mignot</span>
+        <span class="author-name">Axel Roebel</span>
+      </div>
+      <div class="venue">Journal of the Audio Engineering Society, vol. 71, no.9, 2023</div>
+      <div class="paper-links">
+        <a href="https://aes2.org/publications/elibrary-page/?id=22231" class="paper-link arxiv">Paper</a>
+        <a href="https://github.com/lrenault/ddsp-piano" class="paper-link code">Code</a>
+        <a href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" class="paper-link website">Website</a>
+      </div>
+    </div>
+    <div class="publication-item">
+      <h3 class="paper-title">Differentiable Piano Model for MIDI-to-Audio Performance Synthesis</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lenny Renault</span>
+        <span class="author-name">Rémi Mignot</span>
+        <span class="author-name">Axel Roebel</span>
+      </div>
+      <div class="venue">DAFx 2022, Best Paper Award</div>
+      <div class="paper-links">
+        <a href="https://www.dafx.de/paper-archive/2022/papers/DAFx20in22_paper_48.pdf" class="paper-link arxiv">Paper</a>
+        <a href="https://github.com/lrenault/ddsp-piano" class="paper-link code">Code</a>
+        <a href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" class="paper-link website">Website</a>
+        <a href="https://www.youtube.com/watch?v=5uK-zI9pBC8" class="paper-link video">Video</a>
+      </div>
+    </div>
+    <div class="publication-item">
+      <h3 class="paper-title">Singing Language Identification using a Deep Phonotactic Approach</h3>
+      <div class="authors">
+        <span class="author-name author-me">Lenny Renault</span>
+        <span class="author-name">Andrea Vaglio</span>
+        <span class="author-name">Romain Hennequin</span>
+      </div>
+      <div class="venue">IEEE ICASSP 2021</div>
+      <div class="paper-links">
+        <a href="https://arxiv.org/pdf/2105.15014" class="paper-link arxiv">Paper</a>
+        <a href="https://github.com/deezer/SingingLanguageIdentification" class="paper-link code">Dataset Split</a>
+      </div>
+    </div>
+  </div>
 
-## Conference Papers
+---
+# Community Services
+- Reviewer for [DAFx24](https://dafx24.surrey.ac.uk/people/)
+- Organizer for the [JJCAAS 2023](https://jjcaas2023.sciencesconf.org/resource/page/id/4)
 
-<!-- DAFx 2023 -->
+<!-- DAFx 2023
 <div id="unpair-perf-render_dafx23" class="paper">
     <div class="paper-info">
         <span class="paper-status-chip">DAFx 2023</span>
@@ -48,8 +89,8 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <p class="paper-authors"><strong>Lenny Renault</strong>, Rémi Mignot, Axel Roebel</p>
         <p class="paper-status"><em>26th International Conference on Digital Audio Effects (DAFx23), September 2023</em></p>
         <div class="paper-data">
-            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2023/DAFx23_paper_75.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> PDF</a>
-            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx23/" target="_blank" rel="noopener noreferrer">&#127760; Supplementary Materials</a>
+            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2023/DAFx23_paper_75.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
+            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx23/" target="_blank" rel="noopener noreferrer">&#127760; Website</a>
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
         </div>
         <button class="paper-abstract-toggle" onclick='toggle_abstract(this)'>Click to read abstract</button>
@@ -65,8 +106,8 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         </div>
     </div>
 </div>
-
-<!-- DAFx 2022 -->
+-->
+<!-- DAFx 2022 
 <div id="diffpiano_dafx22" class="paper">
     <div class="paper-info">
         <span class="paper-status-chip">DAFx 2022</span>
@@ -74,9 +115,9 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <p class="paper-authors"><strong>Lenny Renault</strong>, Rémi Mignot, Axel Roebel</p>
         <p class="paper-status"><em>25th International Conference on Digital Audio Effects (DAFx20in22), September 2022</em></p>
         <div class="paper-data">
-            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2022/papers/DAFx20in22_paper_48.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> PDF</a>
+            <a class="paper-data-item" href="https://www.dafx.de/paper-archive/2022/papers/DAFx20in22_paper_48.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
             <a class="paper-data-item" href="https://github.com/lrenault/ddsp-piano" target="_blank" rel="noopener noreferrer"><i class="fa fa-code"></i> Code</a>
-            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" target="_blank" rel="noopener noreferrer">&#127760; Supplementary Materials</a>
+            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" target="_blank" rel="noopener noreferrer">&#127760; Website</a>
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
         </div>
         <button class="paper-abstract-toggle" onclick='toggle_abstract(this)'>Click to read abstract</button>
@@ -92,8 +133,8 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         </div>
     </div>
 </div>
-
-<!-- ICASSP 2021 -->
+-->
+<!-- ICASSP 2021 
 <div id="deep-phonotactic_icassp21" class="paper">
     <div class="paper-info">
         <span class="paper-status-chip">ICASSP 2021</span>
@@ -101,7 +142,7 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <p class="paper-authors"><strong>Lenny Renault</strong>, Andrea Vaglio, Romain Hennequin</p>
         <p class="paper-status"><em>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), June 2021</em></p>
         <div class="paper-data">
-            <a class="paper-data-item" href="https://arxiv.org/pdf/2105.15014" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> PDF</a>
+            <a class="paper-data-item" href="https://arxiv.org/pdf/2105.15014" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
             <a class="paper-data-item" href="https://github.com/deezer/SingingLanguageIdentification" target="_blank" rel="noopener noreferrer"><i class="fa fa-code"></i> Dataset Split</a>
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
         </div>
@@ -122,10 +163,9 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         </div>
     </div>
 </div>
+-->
 
-## Journal Articles
-
-<!-- JAES 2023 -->
+<!-- JAES 2023 
 <div id="ddsppiano_jaes" class="paper">
     <div class="paper-info">
         <span class="paper-status-chip">JAES 2023</span>
@@ -133,9 +173,9 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         <p class="paper-authors"><strong>Lenny Renault</strong>, Rémi Mignot, Axel Roebel</p>
         <p class="paper-status"><em>Journal of the Audio Engineering Society, Volume 71, Issue 9, pp. 552-565, September 2023</em></p>
         <div class="paper-data">
-            <a class="paper-data-item" href="https://aes2.org/publications/elibrary-page/?id=22231" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> PDF</a>
+            <a class="paper-data-item" href="https://aes2.org/publications/elibrary-page/?id=22231" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
             <a class="paper-data-item" href="https://github.com/lrenault/ddsp-piano" target="_blank" rel="noopener noreferrer"><i class="fa fa-code"></i> Code</a>
-            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" target="_blank" rel="noopener noreferrer">&#127760; Supplementary Materials</a>
+            <a class="paper-data-item" href="http://renault.gitlab-pages.ircam.fr/dafx22-audio/jekyll/update/2022/04/25/supplementary-materials" target="_blank" rel="noopener noreferrer">&#127760; Website</a>
             <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
         </div>
         <button class="paper-abstract-toggle" onclick='toggle_abstract(this)'>Click to read abstract</button>
@@ -154,3 +194,38 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
         </div>
     </div>
 </div>
+-->
+
+<!-- PhD Thesis
+<div id="phd_SU2024" class="paper">
+    <div class="paper-info">
+        <span class="paper-status-chip">PhD Thesis - Sorbonne Université</span>
+        <p class="paper-title">Neural Audio Synthesis of Realistic Piano Performances</p>
+        <p class="paper-authors"><strong>Lenny Renault</strong></p>
+        <p class="paper-status"><em>Sorbonne Université, 2024</em></p>
+        <div class="paper-data">
+            <a class="paper-data-item" href="https://theses.hal.science/tel-04732963/" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf"></i> Paper</a>
+            <a class="paper-data-item" href="http://thesis-support-renault-b460f792019c9673b9a3b8b52c4d32d2ab7ae4b1.gitlab-pages.ircam.fr/" target="_blank" rel="noopener noreferrer">&#127760; Website</a>
+            <a class="paper-data-item" href="https://www.youtube.com/embed/p-Ee3pphlZ4?si=L2FodIUFwhSYHbR5" target="_blank" rel="noopener noreferrer">&#127760; Video</a>
+            <a class="paper-data-item" onclick='copy_bibtext(this)'>&#128278; Copy BibTeX</a>
+        </div>
+        <button class="paper-abstract-toggle" onclick='toggle_abstract(this)'>Click to read abstract</button>
+        <p id="phd_SU2024_descr" class="paper-small-descr">Musician and instrument make up a central duo in the musical experience. Inseparable, they are the key actors of the musical performance, transforming a composition into an emotional auditory experience. To this end, the instrument is a sound device, that the musician controls to transcribe and share their understanding of a musical work. Access to the sound of such instruments, often the result of advanced craftsmanship, and to the mastery of playing them, can require extensive resources that limit the creative exploration of composers. This thesis explores the use of deep neural networks to reproduce the subtleties introduced by the musician's playing and the sound of the instrument, making the music realistic and alive. Focusing on piano music, the conducted work has led to a sound synthesis model for the piano, as well as an expressive performance rendering model. DDSP-Piano, the piano synthesis model, is built upon the hybrid approach of Differentiable Digital Signal Processing (DDSP), which enables the inclusion of traditional signal processing tools into a deep learning model. The model takes symbolic performances as input and explicitly includes instrument-specific knowledge, such as inharmonicity, tuning, and polyphony. This modular, lightweight, and interpretable approach synthesizes sounds of realistic quality while separating the various components that make up the piano sound. As for the performance rendering model, the proposed approach enables the transformation of MIDI compositions into symbolic expressive interpretations. In particular, thanks to an unsupervised adversarial training, it stands out from previous works by not relying on aligned score-performance training pairs to reproduce expressive qualities. The combination of the sound synthesis and performance rendering models would enable the synthesis of expressive audio interpretations of scores, while enabling modification of the generated interpretations in the symbolic domain.</p>
+        <div id="phd_SU2024_bibtex" style="display: none;">
+            @phdthesis{renault:tel-04732963,
+                title = {{Neural audio synthesis of realistic piano performances}},
+                author = {Renault, Lenny},
+                url = {https://theses.hal.science/tel-04732963},
+                number = {2024SORUS196},
+                school = {{Sorbonne Universit{\'e}}},
+                year = {2024},
+                month = {July},
+                TYPE = {Theses},
+                Paper = {https://theses.hal.science/tel-04732963v1/file/139429_RENAULT_2024_archivage.pdf},
+                HAL_ID = {tel-04732963},
+                HAL_VERSION = {v1},
+            }
+        </div>
+    </div>
+</div>
+-->
