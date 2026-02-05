@@ -14,7 +14,7 @@ All my publications can also be viewed on my [Google Scholar profile](https://sc
       </div>
       <div class="venue">PhD Thesis, Sorbonne Université, 2024</div>
       <div class="paper-links">
-        <a href="https://theses.hal.science/tel-04732963/" class="paper-link thesis">Paper</a>
+        <a href="https://theses.hal.science/tel-04732963/" class="paper-link thesis">Thesis</a>
         <a href="http://thesis-support-renault-b460f792019c9673b9a3b8b52c4d32d2ab7ae4b1.gitlab-pages.ircam.fr/" class="paper-link website">Website</a>
         <a href="https://www.youtube.com/live/p-Ee3pphlZ4?si=jLPMAGtr2m5SCdHA" class="paper-link video">Video</a>
       </div>

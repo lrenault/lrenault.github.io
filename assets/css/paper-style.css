@@ -343,26 +343,26 @@ layout: null
 
 /* Paper links - Academic red (highest priority) */
 .paper-link.arxiv {
-  background: #b31b1b !important;
+  background: #ffb366 !important;
   color: white !important;
-  border-color: #b31b1b !important;
+  border-color: #ffb366 !important;
 }
 
 .paper-link.arxiv:hover {
-  background: #9a1717 !important;
-  border-color: #9a1717 !important;
+  background: #ff8c66 !important;
+  border-color: #ff8c66 !important;
 }
 
 /* Code links - Green */
 .paper-link.code {
-  background: #059669;
+  background: #6ed269;
   color: white;
-  border-color: #059669;
+  border-color: #66c761;
 }
 
 .paper-link.code:hover {
-  background: #047857;
-  border-color: #047857;
+  background: #58a154;
+  border-color: #58a154;
 }
 
 /* Slides links - Blue */
@@ -379,14 +379,14 @@ layout: null
 
 /* Video links - Purple */
 .paper-link.video {
-  background: #7c3aed;
+  background: #8c66ff;
   color: white;
-  border-color: #7c3aed;
+  border-color: #8c66ff;
 }
 
 .paper-link.video:hover {
-  background: #6d28d9;
-  border-color: #6d28d9;
+  background: #6666ff;
+  border-color: #6666ff;
 }
 
 /* Poster links - Orange */
@@ -416,15 +416,15 @@ layout: null
 /* Website/Webpage links - Gray */
 .paper-link.website,
 .paper-link.webpage {
-  background: #6b7280;
+  background: #77a2f8;
   color: white;
-  border-color: #6b7280;
+  border-color: #77a2f8;
 }
 
 .paper-link.website:hover,
 .paper-link.webpage:hover {
-  background: #4b5563;
-  border-color: #4b5563;
+  background: #5b91ff;
+  border-color: #5b91ff;
 }
 
 /* Blog links - Primary theme color */
@@ -443,9 +443,9 @@ layout: null
 
 /* Thesis links - Dark blue */
 .paper-link.thesis {
-  background: #1e40af;
+  background: rgb(28, 59, 162);
   color: white;
-  border-color: #1e40af;
+  border-color: rgb(28, 59, 162);
 }
 
 .paper-link.thesis:hover {
